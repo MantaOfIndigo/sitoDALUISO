@@ -1,0 +1,194 @@
+/* 
+    Document   : decorations
+    Created on : 27-dic-2015, 12.32.00
+    Author     : andreamantani
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.updecoration1{
+    position: absolute;
+    top:0;
+    left:30%;
+    height: 80%;
+    width: 4px;
+    background-color: #eeeeee;
+    opacity: 0.1;
+}
+
+div.downdecoration1{
+    position: absolute;
+    bottom:0;
+    left:45%;
+    height: 60%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+div.updecoration2{
+    position: absolute;
+    top:0;
+    left:75%;
+    height: 90%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+div.downdecoration2{
+    position: absolute;
+    bottom:0;
+    left:65%;
+    height: 50%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+div.updecoration3{
+    position: absolute;
+    top:0;
+    left:20%;
+    height: 30%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+div.downdecoration3{
+    position: absolute;
+    bottom:0;
+    left:85%;
+    height: 40%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+div.updecoration4{
+    position: absolute;
+    top:0;
+    left:20%;
+    height: 30%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+div.downdecoration4{
+    position: absolute;
+    bottom:0;
+    left:15%;
+    height: 55%;
+    width: 4px;
+    background-color:  #eeeeee;
+
+    opacity: 0.1;
+}
+
+#twitter_update_list li{
+    list-style-type: none;
+
+}
+
+#mobilesocial {
+    background: #F2F2F2;
+    font-size: 13px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 6px 15px 6px 15px;
+    border-radius: 20px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#twitter{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: white;
+}
+/*
+ --------------------------------- DATES DECORATION ---------------------------------
+*/
+   
+
+/*
+ --------------------------------- ABOUT DECORATION ---------------------------------
+
+div#about-container{
+    position: relative;
+    width: 800px;
+    height: auto;
+    left: 50%;
+    margin-left: -550px;
+}
+div#about-container div.deco1{
+    width: 700px;
+    height: 200px;
+    left: 75px;
+    top: 33px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+}
+
+div#about-container div.deco2{
+    width: 300px;
+    height: 120px;
+    left: 160px;
+    top: 44px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+    border-right: 1px dashed #3a3a3a;
+}
+
+div#about-container div.deco3{
+    width: 100px;
+    height: 300px;
+    left: 230px;
+    top: 55px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+    border-right: 1px dashed #3a3a3a;
+}
+
+div#about-container div.square1{
+    position:absolute;
+    width: 260px;
+    height: 5px;
+    top: 133px;
+    left: 775px;
+    border: 1px dashed #eeeeee;
+}
+div#about-container div.square2{
+    position:absolute;
+    width: 200px;
+    height: 5px;
+    top: 144px;
+    left: 500px;
+    border: 1px dashed #eeeeee;
+}
+div#about-container div.square3{
+    position:absolute;
+    width: 230px;
+    height: 5px;
+    top: 335px;
+    left: 320px;
+    border: 1px dashed #eeeeee;
+}
+*/

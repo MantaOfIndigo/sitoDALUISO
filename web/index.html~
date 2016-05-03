@@ -1,0 +1,65 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Gianluca Daluiso</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="decorations.css"/>
+        <script src="js/modernizr.js"></script>
+       <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic' rel='stylesheet' type='text/css'>
+
+
+       
+    </head>
+    <body>
+    <header>
+        <div class="social">
+        	<ul>
+        	<li><a href="https://www.facebook.com/gianluca.daluiso/" id="facebookicon"><div alt="facebook" id="fbimage"></div></a></li>
+        	<li><a href="https://twitter.com/GianlucaDaluiso"><div alt="twitter" id="twimage" ></div></a></li>
+        	<li><a href="mailto:scrivimi@gianlucadaluiso.it"><div alt="gmail" id="gmimage" ></div></a></li>
+        	</ul>
+        </div>
+    </header>
+    <div id="bgdec1" class="backdecorations"></div>
+    <div id="bgdec2" class="backdecorations"></div>
+    <div id="bgdec3" class="backdecorations"></div>
+    <ul class="menu" id="main_header">
+        <li id="gianluca"><span>Gianluca</span></li>
+            <li id="books"><span>Libri</span></li>
+            <li id="dates"><span>Appuntamenti</span></li>
+            <li id="about"><span>Contatti</span></li>
+        </ul>
+
+        
+    <img src="images/libro.png" id="book-image">
+    <img src="images/gianluca.jpg" id="profile-photo">
+    <div id="main-container" class="main-container">
+	</div>
+	<div id='twitter'> 
+	<span>Ultimo tweet</span>
+	<script type='text/javascript' src='http://twitter.com/javascripts/blogger.js'> </script> <a class='twitter-timeline' data-chrome='transparent nofooter' data-tweet-limit='1' href='https://twitter.com/GianlucaDaluiso' data-widget-id='681490024039362561'></a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
+	</div>
+	
+	<div id="social-actions">
+	<div id="like"> 
+	<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fgianluca.daluiso%2F&width=150&layout=button_count&action=like&show_faces=true&share=true&height=46&appId" width="200" height="25" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	
+	</div>
+	<div id="follow">
+			<a href="https://twitter.com/GianlucaDaluiso" class="twitter-follow-button" data-show-count="false">Follow @GianlucaDaluiso</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+	
+	<div id="mail">
+		<a href="mailto:scrivimi@gianlucadaluiso.it"><p>Invia una mail</p></a>
+	</div>
+	</div>
+    
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>

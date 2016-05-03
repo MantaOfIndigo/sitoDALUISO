@@ -1,0 +1,649 @@
+/* 
+    Document   : style
+    Created on : 1-dic-2015, 20.19.52
+    Author     : andreamantani
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+   
+   
+   <!--<div id='twitter'> 
+	<span>Ultimo tweet</span>
+	<script type='text/javascript' src='http://twitter.com/javascripts/blogger.js'> </script> <a class='twitter-timeline' data-chrome='transparent nofooter' data-tweet-limit='1' href='https://twitter.com/GianlucaDaluiso' data-widget-id='681490024039362561'></a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','twitter-wjs');</script>
+	</div>-->
+*/
+
+root { 
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    transition: all 900ms ease-out;
+}
+
+body {
+    background-color:background;
+}
+body.light {
+  background-color: #eeeeee;
+}
+body.dark {
+  background-color: #111111;
+}
+
+body ul.menu {
+    position:absolute;
+    height: 50px;
+	width: 1000px
+    top: 170px;
+    left: 50%;
+	margin-left: -500px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	
+    z-index:15;
+}
+
+body ul.menu li:first-child{
+float: left;
+    line-height: 50px;
+    font-size: 45px;
+    font-family: 'Alpaca';
+    text-transform: uppercase;
+    margin-left: 0px;
+    color: #2d2a2a;
+}
+body ul.menu li {
+    float: left;
+    line-height: 50px;
+    font-size: 45px;
+    font-family: 'Alpaca';
+    text-transform: uppercase;
+    margin-left: 60px;
+    color: #2d2a2a;
+}
+
+#main_header{
+     opacity : 0;
+	margin-top: 0px;
+	position: fixed;
+}
+
+/*body ul.menu li:hover {
+  color: #eeeeee;
+  cursor: pointer;
+}*/
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: cadetblue;
+
+}
+
+div.social{
+	position:fixed;
+	width:auto;
+	height:auto;
+	top:5px;
+	right: 30px;
+	
+}
+
+div.social ul{
+    list-style-type: none;
+    
+}
+
+div.social ul li{
+	width:25px;
+	height:25px;
+	margin:10px;
+	display: inline-block;
+}
+
+div.social ul li div{
+	height:25px;
+	width:25px;
+}
+@font-face{
+    font-family:'Alpaca';
+    src:url('Alpaca.otf');
+}
+
+@font-face{
+    font-family:'Bebas';
+    src:url('BebasNeue.otf');
+}
+@font-face{
+	font-family:'FineStyle';
+	src:url('FineStyle.ttf');
+}
+@font-face{
+    font-family:'Foglihten';
+    src:url('Foglihten.otf');
+}
+@font-face{
+	font-family: 'Baskerville';
+	src:url('Baskerville.otf');
+}
+
+div.backdecorations{
+    position:absolute;
+    height: 90%;
+    width: 4px;
+    background-color: #3a3a3a;
+    opacity: 0.1;
+}
+
+#bgdec1{
+    height: 400px;
+    left: 30px;
+}
+
+#bgdec2{
+    height: 270px;
+    left: 50px;
+}
+
+#bgdec3{
+    height: 620px;
+    left: 70px;
+}
+
+.main-container{
+    position:absolute;
+    width: 100%;
+    height: auto;
+    top: 200px;
+    margin-bottom: 100px;
+    background: transparent;
+    z-index: 1;
+}
+
+div#about-container ul{
+    position: relative;
+    font-family: 'Foglihten', serif;
+    font-size: 13px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#eeeeee;
+    top: 24px;
+}
+div#about-container ul li{
+    display:block;
+    margin: 10px;
+
+}
+
+div#about-container{
+    position: relative;
+    width: 800px;
+    height: auto;
+    left: 50%;
+    margin-left: -600px;
+}
+
+div#book-container{
+	position: relative;
+	width:600px;
+	height:auto;
+	left:50%;
+	margin-left: -300px;
+	background: #f3f3f3;
+}
+
+img#book-image {
+	position:relative;
+	width: 400px;
+	height: auto;
+	opacity:0;
+	margin-top: 200px;
+	margin-left:200px;
+	z-index:5;
+	left: 50%;
+	margin-left: -510px;
+}
+
+div#gianluca-container{
+    position: relative;
+    width: 600px;
+    height: auto;
+    left: 50%;
+    margin-left: -300px;
+}
+
+div#books-container{
+	position:relative;
+	width: 600px;
+	height: auto;
+	left: 50%;
+	margin-left: -300px;
+}
+
+
+div.text{
+	position:relative;
+	width: 600px;
+	left:45%;
+	margin-top: 80px;
+	height: auto;
+}
+
+div.title{
+	position:relative;
+	width: 600px;
+}
+div.title span{
+	position:relative;
+	font-family: 'FineStyle';
+	font-size: 37px;
+	
+}
+div.subtitle{
+	position:relative;
+	width: 550px;
+	margin-top:30px;
+}
+div.subtitle span{
+	position:relative;
+	font-family: 'Baskerville';
+	font-size: 20px;
+	display:inline-block;
+	margin-top: 20px;
+	width: 100%;
+}
+
+div#about-container div.deco1{
+    width: 500px;
+    height: 200px;
+    left: 75px;
+    top: 33px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+	z-index:-10;
+}
+
+div#about-container div.deco2{
+    width: 200px;
+    height: 320px;
+    left: 160px;
+    top: 44px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+    border-right: 1px dashed #3a3a3a;
+	z-index:-10;
+}
+
+div#about-container div.deco3{
+    width: 100px;
+    height: 300px;
+    left: 230px;
+    top: 155px;
+    position: absolute;
+    background: transparent;
+    border-top: 1px dashed #3a3a3a;
+    border-right: 1px dashed #3a3a3a;
+	z-index:-10;
+}
+
+div#about-container div.square1{
+    position:absolute;
+    width: 260px;
+    height: 5px;
+    top: 133px;
+    left: 775px;
+    border: 1px dashed #eeeeee;
+}
+div#about-container div.square2{
+    position:absolute;
+    width: 200px;
+    height: 5px;
+    top: 144px;
+    left: 500px;
+    border: 1px dashed #eeeeee;
+}
+
+
+.right{
+	float: right;
+	margin-right: -100px;
+	text-align: right;
+}
+
+div#italic-desc{
+	position:relative;
+	margin-top:550px;
+	font-family:'Barskerville';
+	font-style: italic;
+	font-size:19px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	
+}
+
+div#fourth{
+	position:relative;
+	background: #302e2f;
+	width: 100%;
+	height: auto;
+	top: 400px;
+	margin-top:310px;
+	padding-top:20px;
+	padding-bottom: 90px;
+}
+
+div#fourth span{
+	position:relative;
+	left:50%;
+	width: 500px;
+	margin-left:-100px;
+	font-family:'Baskerville';
+	color: #f3f3f3;
+	font-size: 22px;
+	display:block;
+	margin-top:50px;
+}
+
+#virg_open{
+	position:absolute;
+	z-index:-1;
+	top: -50px;
+	left: -60px;
+	width:80px;
+}
+#virg_close{
+	position:absolute;
+	z-index:-1;
+	margin-top:250px;
+	width: 550px;
+}
+
+
+div#about-container div.square3{
+    position:absolute;
+    width: 230px;
+    height: 5px;
+    top: 335px;
+    left: 320px;
+    border: 1px dashed #eeeeee;
+}
+
+div#books-container div.deco1{
+	position:absolute;
+	width: 1500px;
+	height: 5px;
+	top:220px;
+	left: 100%;
+	margin-left: 0px;
+	z-index:-10;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#profile-photo{
+	position:relative;
+	width:300px;
+	height: auto;
+	left: 50%;
+	margin-left: -400px;
+	opacity:0.0;
+	top: -180px;
+	border: 10px solid white;
+	z-index:10;
+	
+}
+
+#bio{
+	position:relative;
+	left:50%;
+	margin-left: -170px;
+	margin-top: 45px;
+	width: 750px;
+	font-family: 'Barskerville';
+	font-size: 14px;
+	line-height: 25px;
+}
+.title-prev{
+	color: white;
+}
+.subtitle-prev{
+	color:white;
+}
+
+#twitter{
+	opacity:0;
+	position:fixed;
+	bottom:20px;
+	left: 20px;
+}
+
+#twitter span{
+	font-family: 'Barkerville';
+	font-size: 18px;
+	color: #302e2f;
+	right:20px;
+	bottom: 200px;
+	position:absolute;
+}
+
+#fbimage {
+    width: 25px; /* width of image */
+    height: 25px;
+    
+    background-size: 25px 25px;
+    background-image: url(images/dark_indent/facebook.png);
+}
+
+#fbimage:hover {
+    background-image: url(images/colour/facebook.png);
+}
+
+#date{
+	position:absolute;
+	font-family: 'Bebas';
+	font-size: 40px;
+	color: #E3303B;
+	top:-50px;
+	right: 10px;
+}
+
+#twimage {
+    width: 25px; /* width of image */
+    height: 25px;
+    
+    background-size: 25px 25px;
+    background-image: url(images/dark_indent/twitter.png);
+}
+
+#twimage:hover {
+    background-image: url(images/colour/twitter.png);
+}
+
+#gmimage {
+    width: 25px; /* width of image */
+    height: 25px;
+    
+    background-size: 25px 25px;
+    background-image: url(images/dark_indent/google.png);
+}
+
+#gmimage:hover {
+    background-image: url(images/colour/google.png);
+}
+
+#decoration-red-line{
+	position:absolute;
+	height: 5px;
+	width: 130%;
+	left:20%;
+	border-bottom: 1px solid red;
+}
+
+#gianluca-begin{
+	position:relative;
+	font-family:'Baskerville';
+	font-size: 23px;
+	
+	color: #302e2f;
+	margin:20px;
+}
+
+#gianluca-middle{
+	position:relative;
+	font-family:'Baskerville';
+	font-size: 23px;
+	
+	color: #302e2f;
+	margin:20px;
+}
+
+#gianluca-end{
+	position:relative;
+	
+	font-family:'Baskerville';
+	font-size: 23px;
+	
+	margin:20px;
+	margin-bottom: 50px;
+}
+
+#decoration-bottom-black{
+	position:absolute;
+	width:100%;
+	height: 250px;
+	background-color:#302e2f;
+}
+
+#dates-container{
+	position:relative;
+	width:500px;
+	left:50%;
+	margin-left:-250px;
+	margin-top:100px;
+	text-align:center;
+}
+
+#dates-container span{
+	font-family: 'Baskerville';
+	font-size: 25px;
+	color: white;
+}
+
+#follow{
+	position:relative;
+	width:auto;
+	height:25px;
+	display:inline-block;
+	bottom:4px;
+	
+}
+
+#like{
+	position:relative;
+	width:auto;
+	
+	height:25px;
+	height:auto;
+	display:inline-block;
+}
+
+#mail{
+position:relative;
+	width:auto;
+	height:auto;
+	display:inline-block;
+	height:25px;
+	margin-left:50px;
+	bottom:8px;
+}
+
+a:link  
+{  
+ text-decoration:none;  
+} 
+
+p{
+	font-family: 'Baskerville';
+	font-size: 19px;
+	color: white;
+	font-style:normal;
+	
+}
+
+#fbbanner{
+	position:relative;
+	width:500px;
+	height:127px;
+	background-size: 300px auto;
+	background-image: url('images/facebookbanner.png');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+    margin:10px;
+}
+
+#fbbanner img{
+	width:100%;
+	height:100%;
+}
+#twbanner{
+	position:relative;
+	width:500px;
+	height:127px;
+	background-size: 300px auto;
+	background-image: url('images/twitterbanner.png');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+    margin:10px;
+}
+#twbanner img{
+	width:100%;
+	height:100%;
+}
+#gmbanner{
+	position:relative;
+	width:500px;
+	height:127px;
+	background-size: 300px auto;
+	background-image: url('images/mailbanner.png');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    margin:10px;
+}
+
+#gmbanner img{
+	width:100%;
+	height:100%;
+}
+
+#social-actions{
+	position:absolute;
+	bottom:100px;
+	opacity:0;
+	left:50%;
+	margin-left:-(25%);
+}
+.container{
+	position:relative;
+	width:auto;
+	height:auto;
+	margin-top: -80px;
+	left:75%;
+}
